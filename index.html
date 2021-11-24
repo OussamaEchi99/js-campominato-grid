@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div class="wrapper">
+        <!-- HEADER -->
+        <header>
+            <div class="container">
+                <div class="header-left">
+                    <img class="logo" src="img/logo.png" alt="">
+                    <span>Griglia</span>
+                </div>
+
+                <div class="header-right">
+                    <!-- Level select -->
+                    <label for="select_level">Difficolta:</label>
+                    <select id="select_level">
+                        <option value="easy">Easy</option>
+                        <option value="hard">Hard</option>
+                        <option value="crazy">Crazy</option>
+                    </select>
+
+                    <button id="play_btn">Play</button>
+                </div>
+            </div>
+        </header>
+
+        <!-- MAIN -->
+        <main>
+            <h2 id="intro_text">Seleziona il livello di difficoltà</h2>
+
+            <div id="grid" class="main-grid hidden">
+                <!-- Single square -->
+                <!-- <div class="square clicked">
+                    <span>1</span>
+                </div> -->
+            </div>
+        </main>
+
+        <!-- FOOTER -->
+        <footer>
+            <div class="container">
+                Made with &hearts; by Boolean
+            </div>
+        </footer>
+    </div>
+    
+    <script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
